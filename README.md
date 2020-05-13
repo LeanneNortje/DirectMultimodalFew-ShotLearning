@@ -1,8 +1,8 @@
-# End-to-end multimodal few-shot learning of speech and images
+# Direct multimodal few-shot learning of speech and images
 
 ## Overview
 
-This repository includes the code used to implement the experiments in the paper: END-TO-END MULTIMODAL FEW-SHOT LEARNING OF SPEECH AND IMAGES. Unsupervised approaches are compared to transfer learning from background data. These two approaches are used to learn features used in a multimodal speech-image matching task. 
+This repository includes the code used to implement the experiments in the paper: DIRECT MULTIMODAL FEW-SHOT LEARNING OF SPEECH AND IMAGES. Unsupervised approaches are compared to transfer learning from background data. These two approaches are used to learn features used in a multimodal speech-image matching task. 
 
 ## Disclaimer
 
