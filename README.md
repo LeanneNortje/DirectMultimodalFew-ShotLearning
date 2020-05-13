@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository includes the code used to implement the experiments in the paper: DIRECT MULTIMODAL FEW-SHOT LEARNING OF SPEECH AND IMAGES. Direct multimodal few-shot learning approaches are compared to an indirect multimodal few-shot learning approache using transfer learning. These two approaches are used to learn features used in a multimodal few-shot speech-image matching task. 
+This repository includes the code used to implement the experiments in the paper: DIRECT MULTIMODAL FEW-SHOT LEARNING OF SPEECH AND IMAGES. Direct multimodal few-shot learning approaches are compared to an indirect multimodal few-shot learning approach using transfer learning. These approaches are used to learn features used in a multimodal few-shot speech-image matching task. 
 
 ## Disclaimer
 
