@@ -1,0 +1,58 @@
+{
+
+  "model_type": "mcae",
+  "image_architecture": "cnn",
+  "speech_architecture": "rnn",
+  "final_model": true,
+
+  "image_data_type": "MNIST",
+  "speech_data_type": "TIDigits",
+  "features_type": "mfcc", 
+  "train_tag": "gt",        
+  "max_frames": 100,
+  "image_input_dim": 784,
+  "speech_input_dim": 13,
+
+  "train_model": true,
+  "use_best_model": true,
+  "test_model": true,
+  "activation": "relu",
+  "batch_size": 64,
+  "n_buckets": 3,
+  "rnn_type": "gru",
+  "epochs": 50,
+  "patience": 30, 
+  "min_number_epochs": 20,
+  "learning_rate": 0.001,
+  "keep_prob": 0.9,
+  "shuffle_batches_every_epoch": true,
+  "divide_into_buckets": true,
+  "pair_type": "classifier",
+  "topline": false,
+  
+  "image_enc": [[3, 3, 32], [3, 3, 64], [3, 3, 128]],
+  "image_enc_strides": [[1, 1], [1, 1], [1, 1]],
+  "image_dec": [[3, 3, 64], [3, 3, 32], [3, 3, 1]],
+  "image_dec_strides": [[1, 1], [1, 1], [1, 1]],
+  "pool_func": "max",
+  "image_pool_layers": [[2, 2], [2, 2], "None"],
+  "activation": "relu",
+  "latent": 130, 
+  "speech_enc": [400, 400, 400],
+  "speech_dec": [400, 400, 400],
+  "speech_latent_enc": [],
+  "speech_latent_dec": [],
+  "image_latent_enc": [],
+  "image_latent_dec": [],
+  "keep_prob": 0.9, 
+  "speech_latent_func": "default",
+  "image_latent_func": "default",
+  "margin": 0.2,
+
+  "M": 11,
+  "K": 5,
+  "Q": 10,
+
+  "rnd_seed": 1
+
+}
