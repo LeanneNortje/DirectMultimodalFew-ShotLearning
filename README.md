@@ -212,3 +212,7 @@ cd Model_results/
 ./get_mean_and_std_of_result.py
 cd ../
 ```
+
+## NOTE
+
+You do not have to do sections [Unimodal K-shot tests](#Unimodal-K--shot-tests) and [Multimodal K-shot tests](#Multimodal-K--shot-tests) for the direct models. You can simply run the appropriate training scripts again if one or some of the tests were not already done after training the model with the same script. 
