@@ -10,7 +10,7 @@ I provide no guarantees with this code, but I do believe the experiments in the 
 
 ## Installing `docker` and `nvidia-docker`
 
-To install `docker` and `nvidia-docker`, [goto](https://github.com/LeanneNortje/multimodal_speech-image_matching) and follow the steps in `Installing docker` and `Installing nvidia-docker`.
+To install `docker` and `nvidia-docker`, [go to](https://github.com/LeanneNortje/multimodal_speech-image_matching) and follow the steps in `Installing docker` and `Installing nvidia-docker`.
 
 NOTE: To build the GPU-image in [Build docker images](#Build-docker-images), you have to install `nvidia-docker`. 
 
