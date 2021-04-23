@@ -19,13 +19,13 @@ NOTE: To build the GPU-image in [Build docker images](#Build-docker-images), you
 To clone the repository run:
 
 ```
-https://github.com/LeanneNortje/direct_multimodal_few-shot_learning.git
+git clone https://github.com/LeanneNortje/DirectMultimodalFew-ShotLearning.git
 ```
 
 To get into the repository run:
 
 ```
-cd direct_multimodal_few-shot_learning/
+cd DirectMultimodalFew-ShotLearning/
 ```
 
 ## Build docker images
